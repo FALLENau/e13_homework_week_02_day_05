@@ -12,4 +12,14 @@ class TestBankAccount < MiniTest::Test
     assert_equal("Jarrod", @account.name())
   end
 
+  def test_account_has_amount
+    assert_equal(5, @account.amount())
+  end
+
+  def test_account_has_type
+    assert_equal("business", @account.type())
+  end
+
+  
+
 end
