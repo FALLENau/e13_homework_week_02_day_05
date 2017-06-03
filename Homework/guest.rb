@@ -1,8 +1,8 @@
 require "pry"
 
-  attr_reader :guest
+class Guest
 
-class Room
+  attr_reader :guest
 
   def initialize(guest)
     @guest = guest
