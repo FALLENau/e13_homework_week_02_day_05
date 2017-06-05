@@ -19,7 +19,6 @@ class Room
     @room_guests.push(guest_name)
   end
 
-  # binding.pry
   def guest_check_out(guest_name)
     @room_guests.delete(guest_name)
   end
