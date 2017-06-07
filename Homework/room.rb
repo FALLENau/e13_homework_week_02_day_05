@@ -24,7 +24,7 @@ class Room
   end
 
   def number_of_songs
-  return @room_songs.count
+    @room_songs.count
   end
 
   def add_song_to_room(song)
